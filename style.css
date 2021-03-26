@@ -1,0 +1,115 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    width: 1440px;
+}
+hr{
+    color: hsl(0, 0%, 59%);
+    height: 1px;
+    border: 0;
+    border-top: 1px solid;
+}
+h2{
+    font-weight: 1100;
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 0%;
+    
+}
+h4{
+    margin-top: 10px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+section{
+    height: 0;
+    width: 0;
+}
+.user-profile{
+    height: 50%;
+    width: 30%;
+    border-radius: 5%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Kumbh Sans;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 39rem;
+    z-index: 2;
+}
+.user-age{
+    font-weight: 400;
+    color:hsl(0, 0%, 59%) ;
+}
+.top-container
+{
+    width: 100%;
+    height: 175px;
+    border-radius: 5%;
+}
+.middle-container{
+    height: 200px;
+    width: 100%;
+}
+.user-name{ 
+    font-size: 18px;
+    font-weight: 700;
+    transform: translate(0, -40px);
+    padding-bottom: 10px;
+ }
+.user-location{
+    transform: translate(0, -40px);
+}
+.bottom-left{
+    margin-left: 50px;
+    width: 100px;
+    
+}
+.bottom-middle{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100px;
+}
+.bottom-right{
+    width: 100px;
+    margin-right: 50px;
+}
+.bottom-container{
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+}
+.top-bubbles{
+    width: 100px;
+    height: 175px;
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.profile-pic{
+    background: white;padding: 5px;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    z-index: 3;
+    position: center;
+    transform: translate(0, -70px);
+}
+.attribution{
+    margin-left: 15rem;
+}
+
+/* GRAPHICS (CIRCLES) */
+.cirlces{
+    margin: none;
+    position: absolute;
+    animation: 2s circles forwards;
+}
+.big-bubble1{
+    z-index: 1;
+    transform: translate(-25%, -40%);
+}
+.big-bubble2{
+    z-index: 1;
+    transform: translate(90%, -60%);
+}
